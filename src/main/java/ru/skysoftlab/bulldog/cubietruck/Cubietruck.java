@@ -37,14 +37,14 @@ public class Cubietruck extends AbstractBoard {
 
 	private void createPins() {
 		
-		getPins().add(createSysFsPin(CubietruckNames.PB2, 7, "C", 21, "7", true));
+		getPins().add(createSysFsPin(CubietruckNames.PB2, 7, "B", 21, "7", true));
 		
 		getPins().add(createSysFsPin(CubietruckNames.PC19, 3, "C", 5, "3", true));
 		getPins().add(createSysFsPin(CubietruckNames.PC20, 5, "C", 7, "5", true));
 		getPins().add(createSysFsPin(CubietruckNames.PC21, 4, "C", 6, "4", true));
 		getPins().add(createSysFsPin(CubietruckNames.PC22, 6, "C", 8, "6", true));
 
-		getPins().add(createSysFsPin(CubietruckNames.PI3, 8, "C", 19, "8", true));
+		getPins().add(createSysFsPin(CubietruckNames.PI3, 8, "I", 19, "8", true));
 	}
 
 	public Pin createSysFsPin(String name, int address, String port, int indexOnPort, String fsName, boolean interrupt) {
